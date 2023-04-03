@@ -1,0 +1,50 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+body::-webkit-scrollbar{
+width: 0px;
+}
+.searchBar{
+    border: none;
+    border-radius: 40px;
+    padding:7px;
+    width: 300px;
+    outline: none;
+}
+.category-btn{
+    font-weight: bold !important;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor:pointer;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  .category-btn:hover span{
+    color: white !important;
+  }
+  .category-btn:hover{
+    background-color: red;
+  }
+  .boxOfSidebar::-webkit-scrollbar
+  {
+    width: 0px;
+    height: 5px;
+  }
+  .navbar
+  {
+    z-index: 999;
+  }
+  .react-player {
+    height: 60vh !important;
+    width:100% !important;
+  }

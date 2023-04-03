@@ -1,0 +1,1 @@
+let nav = document.getElementsByClassName('navbar');
